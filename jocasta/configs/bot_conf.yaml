@@ -9,9 +9,9 @@ STRING_SESSION: '1BVtsOH4Bu3JGSyRpT4_AS1wPu3xxvZUHrnL7RDqo0DFGLLq8_AP410cQnOkM-V
 MONGO_URL: 'mongodb+srv://tgnwebot:tgnwebot@cluster0.ctpxfgt.mongodb.net/?retryWrites=true&w=majority'
 MONGO_DB: 'bot' # leave this as it is or change from services/mongo.py this change here. 
 
-REDIS_URI: 'redis-18174.c275.us-east-1-4.ec2.cloud.redislabs.com'
-REDIS_PORT: 18174
-REDIS_PASS: 'A9UshnXmWWF3At5i9D00Vd5SjlcZ6zII'
+REDIS_URI: '127.0.0.1'
+REDIS_PORT: 6379
+REDIS_PASS: ''
 
 SUPPORT_CHAT: -1001169633337 # send live ccs to here must add bot and make bot admin.
 LOG_CHAT: -1001169633337  # send live ccs to here must add bot and make bot admin.
