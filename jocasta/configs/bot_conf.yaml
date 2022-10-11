@@ -1,24 +1,24 @@
 
-API_ID: '15807865' #https://my.telegram.org/
+API_ID: 15807865 #https://my.telegram.org/
 API_HASH: '1aabd0a02c1662bbaf521a81e782e273'  #https://my.telegram.org/
 
 BOT_TOKEN: '5454701638:AAFd2qRyQRaDoh7PWxXiA2IXc_EKrYDvCJU' #@botfather
 
-STRING_SESSION: '' #python3 session_gen.py
+STRING_SESSION: '1BVtsOH4Bu3JGSyRpT4_AS1wPu3xxvZUHrnL7RDqo0DFGLLq8_AP410cQnOkM-V9rBwl_9oJNrqwXbxL-AoT7h6rNMAwCyVGvkrODrpJqefw7bWAI9Vr5ySJ2AHIhrYkvCsU-LlQ3OLo_ANRFntOeHmPxpGUiuXtxoC6SAkDpJNerH2d_tWf_LhXKJbFWWiZtKnnRr8vpQ6O8uds00V3wuJhfenxKqB4ctkUmFJ0nLpvDvphD8PNXfab-SbZBuHydK9KgxncZmgYeJHUX_-7EAmfu_bg8f7npGMHV2mZ-8mzYDUJUM641hoHyfi6yB8qFj_sPbdK8T76MXpWfNbO9qCYxTsvHA88=' #python3 session_gen.py
 
-MONGO_URL: ''
+MONGO_URL: 'mongodb+srv://tgnwebot:tgnwebot@cluster0.ctpxfgt.mongodb.net/?retryWrites=true&w=majority'
 MONGO_DB: 'bot' # leave this as it is or change from services/mongo.py this change here. 
 
-REDIS_URI: '127.0.0.1'
-REDIS_PORT: 6379
-REDIS_PASS: ''
+REDIS_URI: 'redis-18174.c275.us-east-1-4.ec2.cloud.redislabs.com'
+REDIS_PORT: 18174
+REDIS_PASS: 'A9UshnXmWWF3At5i9D00Vd5SjlcZ6zII'
 
-SUPPORT_CHAT: -1001549685862 # send live ccs to here must add bot and make bot admin.
-LOG_CHAT: -1001549685862  # send live ccs to here must add bot and make bot admin.
-OWNER_ID: 1317173146 #Owner its
+SUPPORT_CHAT: -1001169633337 # send live ccs to here must add bot and make bot admin.
+LOG_CHAT: -1001169633337  # send live ccs to here must add bot and make bot admin.
+OWNER_ID: 5195866238 #Owner its
 
 ADMINS: 
-  - 1317173146
+  - 5195866238
 
 
 ALLOW_COMMANDS_FROM_EXC: './'
